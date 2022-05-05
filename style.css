@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #4a0037;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #ff97ff;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -76,7 +76,7 @@ body {
     padding-bottom: 1rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
+/* .contact-info { border-bottom: 4px solid #1B2631; } */
 .left-title {
     color: #FDB44B;
     font-size: 20px;
@@ -89,7 +89,7 @@ body {
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .contact-info ul li,
@@ -106,7 +106,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #4a0037;
 }
 
 .skills ul {
@@ -144,7 +144,7 @@ body {
 }
 
 .right-title {
-    color: #70C6C7;
+    color: #4a0037;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -162,7 +162,7 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #F1F8FD;
+    color: #300e27;
 }
 
 .experience-contents,
@@ -171,7 +171,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #FDB44B;
 }
 
 .exp-company-name,
@@ -179,18 +179,18 @@ body {
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
+    text-transform: uppercase;
     line-height: 2rem;
+    color: #FDB44B;
 }
 
 .exp-position,
@@ -198,9 +198,7 @@ body {
 .awards-name {
     font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
@@ -279,24 +277,24 @@ body {
 
     .about-me-contents {
         font-size: 16px;
-        line-height: 1.5rem;
+        line-height: 2rem;
     }
 
     .exp-company-name,
     .education-school-name,
     .awards-company-name {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .exp-time-period,
     .educationp-time-period,
     .awards-time-period {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .exp-position,
     .education-subject,
     .awards-name {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
